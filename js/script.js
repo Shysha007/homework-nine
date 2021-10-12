@@ -28,11 +28,9 @@ const m = +prompt(`Введите второе число`);
 const c = +prompt(`Введите третье число`);
 if ( a > m && a > c) {
     alert(a + ` наибольшее число`);
-}
-if (  m > a && m > c) {
+} else  if (  m > a && m > c) {
     alert(m + ` наибольшее число`);
-}
-if ( c > m && c > a) {
+} else if ( c > m && c > a) {
     alert(c + ` наибольшее число`);
 }
 
@@ -47,5 +45,5 @@ if (numOne + numTwo > numThree ) {
 } else if (numTwo + numThree > numOne) {
     alert(`Такой треугольник может существовать`);
 } else {
-    alert(`Такой треугольник не сущетсвует`)
+    alert(`Такой треугольник не сущетсвует`);
 }
